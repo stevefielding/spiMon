@@ -1,0 +1,157 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Dec 29 21:48:18 2020
+[*]
+[dumpfile] "C:\projects\FPGA\func\qspiMonitor\sim\wave.vcd"
+[dumpfile_mtime] "Mon Dec 28 23:07:46 2020"
+[dumpfile_size] 317001
+[savefile] "C:\projects\FPGA\func\qspiMonitor\sim\wave_config.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 0 3
+*-22.954561 13002000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testHarness.
+[treeopen] testHarness.u_qspiMonitor.
+[treeopen] testHarness.u_qspiMonitor.u_spiInSM.
+[sst_width] 211
+[signals_width] 256
+[sst_expanded] 1
+[sst_vpaned_height] 174
+@22
+testHarness.u_spiTrafficModel.bitCnt[7:0]
+@28
+testHarness.u_spiTrafficModel.clk
+@22
+testHarness.u_spiTrafficModel.currState[3:0]
+testHarness.u_spiTrafficModel.dataToSpi_di[31:0]
+testHarness.u_spiTrafficModel.dataToSpi_do[31:0]
+@28
+testHarness.u_spiTrafficModel.localReset
+@22
+testHarness.u_spiTrafficModel.seqData1[7:0]
+testHarness.u_spiTrafficModel.seqData2[7:0]
+@28
+testHarness.u_spiTrafficModel.spi_accessReq
+testHarness.u_spiTrafficModel.spi_busy
+testHarness.u_spiTrafficModel.spi_clk
+testHarness.u_spiTrafficModel.spi_cs
+testHarness.u_spiTrafficModel.spi_di
+testHarness.u_spiTrafficModel.spi_do
+@200
+-qspiMonitor
+@22
+testHarness.u_qspiMonitor.byteCnt[7:0]
+@28
+testHarness.u_qspiMonitor.clk
+@22
+testHarness.u_qspiMonitor.currState[3:0]
+@28
+testHarness.u_qspiMonitor.rst
+@22
+testHarness.u_qspiMonitor.sendChar[7:0]
+@28
+testHarness.u_qspiMonitor.spi_clk
+testHarness.u_qspiMonitor.spi_cs
+testHarness.u_qspiMonitor.spi_di
+testHarness.u_qspiMonitor.spi_do
+@22
+testHarness.u_qspiMonitor.spi_fifoDataOut[7:0]
+@28
+testHarness.u_qspiMonitor.spi_fifoEmpty
+testHarness.u_qspiMonitor.spi_fifoFull
+testHarness.u_qspiMonitor.spi_fifoREn
+testHarness.u_qspiMonitor.uart_accessReq
+testHarness.u_qspiMonitor.uart_busy
+@22
+testHarness.u_qspiMonitor.uart_dataIn[7:0]
+@28
+testHarness.u_qspiMonitor.uart_tx_pad_o
+@200
+-spiInSM
+@28
+testHarness.u_qspiMonitor.u_spiInSM.clk
+@22
+testHarness.u_qspiMonitor.u_spiInSM.currState[3:0]
+testHarness.u_qspiMonitor.u_spiInSM.fifoDataIn[7:0]
+testHarness.u_qspiMonitor.u_spiInSM.fifoDataOut[7:0]
+@28
+testHarness.u_qspiMonitor.u_spiInSM.fifoEmpty
+testHarness.u_qspiMonitor.u_spiInSM.fifoFull
+testHarness.u_qspiMonitor.u_spiInSM.fifoREn
+testHarness.u_qspiMonitor.u_spiInSM.fifoWEn
+testHarness.u_qspiMonitor.u_spiInSM.rst
+testHarness.u_qspiMonitor.u_spiInSM.spi_accessReq
+@22
+testHarness.u_qspiMonitor.u_spiInSM.spi_cap_di[31:0]
+testHarness.u_qspiMonitor.u_spiInSM.spi_cap_do[31:0]
+@28
+testHarness.u_qspiMonitor.u_spiInSM.spi_cap_ready
+testHarness.u_qspiMonitor.u_spiInSM.spi_clk
+testHarness.u_qspiMonitor.u_spiInSM.spi_cs
+testHarness.u_qspiMonitor.u_spiInSM.spi_di
+testHarness.u_qspiMonitor.u_spiInSM.spi_do
+@200
+-spi_simple
+@28
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.clk
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.rst
+@22
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_cap_di[31:0]
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_cap_di_reg[31:0]
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_cap_do[31:0]
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_cap_do_reg[31:0]
+@28
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_cap_ready
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_clk
+@22
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_clk_reg[7:0]
+@28
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_cs
+@22
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_cs_reg[7:0]
+@28
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_di
+@22
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_di_reg[7:0]
+@28
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_do
+@22
+testHarness.u_qspiMonitor.u_spiInSM.u_spi_simple.spi_do_reg[7:0]
+@200
+-uartHostModel
+@28
+testHarness.uOut_uartHostModel.clk
+@22
+testHarness.uOut_uartHostModel.dataFromUART[7:0]
+testHarness.uOut_uartHostModel.dataToUART[7:0]
+@28
+testHarness.uOut_uartHostModel.dtr_pad_o
+testHarness.uOut_uartHostModel.int_o
+testHarness.uOut_uartHostModel.localReset
+testHarness.uOut_uartHostModel.oddPass
+testHarness.uOut_uartHostModel.rts_pad_o
+@22
+testHarness.uOut_uartHostModel.rxChar[7:0]
+@28
+testHarness.uOut_uartHostModel.rxTimeOut
+@22
+testHarness.uOut_uartHostModel.seqData[7:0]
+@29
+testHarness.uOut_uartHostModel.uartRx
+@28
+testHarness.uOut_uartHostModel.uartTimeOut
+testHarness.uOut_uartHostModel.uartTimeOutEn
+testHarness.uOut_uartHostModel.uartTx
+testHarness.uOut_uartHostModel.uart_accessReq
+testHarness.uOut_uartHostModel.uart_busy
+testHarness.uOut_uartHostModel.uart_rnw
+testHarness.uOut_uartHostModel.wb_ack
+testHarness.uOut_uartHostModel.wb_addr[2:0]
+@22
+testHarness.uOut_uartHostModel.wb_data_from_uart[7:0]
+testHarness.uOut_uartHostModel.wb_data_to_uart[7:0]
+@28
+testHarness.uOut_uartHostModel.wb_stb
+testHarness.uOut_uartHostModel.wb_we
+[pattern_trace] 1
+[pattern_trace] 0
